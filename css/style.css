@@ -1,0 +1,124 @@
+
+/* Style CSS */
+
+/* FontFace Font Contnet */
+@font-face {
+    src: url(../fonts/JFFlatregular.ttf);
+    font-family: font-content;
+}
+
+/* Font Heading */
+@font-face {
+    src: url(../fonts/Cairo-Black.ttf);
+    font-family: font-heading;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: font-heading;
+}
+
+p, span {
+    font-family: font-content;
+}
+
+/* Body Page */
+
+body {
+    direction: rtl;
+    font-family: font-content;
+    font-size: 16px;
+    color: black;
+}
+
+/* Style Header */
+
+header.top_header {
+    background-image: url(../images/bg_header.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+header.top_header nav a img {
+    height: 60px;
+}
+
+header.top_header nav ul {
+    padding: 0;
+}
+
+header.top_header nav ul li a {
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+header.top_header nav ul li a:hover,
+header.top_header nav ul li a:active,
+header.top_header nav ul li a:focus {
+    color: rgb(56, 56, 56);
+}
+
+header.top_header nav ul li.add-menu a svg {
+    margin-left: 4px;
+}
+
+header.top_header nav ul li.add-menu a {
+    background-color: #128ce9;
+    margin-left: 12px;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+header.top_header nav ul li.add-menu:hover a,
+header.top_header nav ul li.add-menu:active a,
+header.top_header nav ul li.add-menu:focus a {
+    background-color: #0091ffd7;
+}
+
+header.top_header .title_section h4 {
+    margin: 30px 0;
+    color: black;
+}
+
+header.top_header .text_marketing p {
+    color: black;
+    margin-bottom: 30px;
+}
+
+header.top_header .sign_up a.page_sign_up svg {
+    margin-left: 4px;
+}
+
+header.top_header .sign_up a.page_sign_up {
+    background-color: wheat;
+    color: black;
+    font-weight: 600;
+    padding: 7px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+header.top_header .sign_up a.page_sign_up:hover,
+header.top_header .sign_up a.page_sign_up:focus,
+header.top_header .sign_up a.page_sign_up:active {
+    background-color: blanchedalmond;
+}
+
+header.top_header .section_image img {
+    height: 315px;
+    margin-right: 20%;
+}
+/* Section Why Us */
+
+.title_section h4 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
