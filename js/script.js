@@ -9,6 +9,9 @@ $(document).ready(function(){
       $('html,body').animate({scrollTop: $(hash).offset().top},800,function(){})
   });
 
+      //للعداد في قسم إحصائيات الشركة
+      $('.timer').countTo();
+
   // Activate lib AOS Animate
   // AOS.init();
 });

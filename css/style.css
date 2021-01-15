@@ -122,3 +122,62 @@ header.top_header .section_image img {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
+.text-small p {
+    color: black;
+    font-weight: 600;
+}
+
+.Why_us .shadow_card {
+    box-shadow: #0090FF 0px 5px, #2ea3fd 0px 10px, #4daffa 0px 15px, #73bdf7 0px 20px, #79bff5c7 0px 25px;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+.Why_us .title_img h5 {
+    margin: 35px 0;
+}
+
+.Why_us .img_icon img {
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.Why_us .small-description p {
+    font-weight: 600;
+    color: black;
+}
+
+/* Style section Featured */
+
+.Featured-moudaris .second-shadow {
+    box-shadow: #0090FF 0px 5px, #2ea3fd 0px 10px, #4daffa 0px 15px, #73bdf7 0px 20px, #79bff5c7 0px 25px;
+    margin: 35px 0;
+}
+
+.Featured-moudaris .title h5 {
+    margin: 30px 0;
+}
+
+.Featured-moudaris .icon img {
+    height: 85px;
+    margin-bottom: 25px;
+}
+
+.Featured-moudaris .small-description p {
+    color: black;
+    font-weight: 600;
+}
+
+/* Style Section Successful */
+
+.our_successful .title_image h5 {
+    margin: 30px 0;
+}
+
+.our_successful .image-expensses img {
+    height: 95px;
+    margin: 20px 0;
+}
+
+
